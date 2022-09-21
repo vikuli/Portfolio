@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0-modified | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -536,24 +531,18 @@ html {
 }
 
 .sun-logo {
-    background-image: url('./essets/svg/sun-hover.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: 0.3s;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
-.sun-logo.active-sun {
-    background-image: url('./essets/svg/sun-hover.svg');
+.sun-logo.active {
     filter: invert(27%) sepia(13%) saturate(729%) hue-rotate(7deg) brightness(94%) contrast(91%);
 }
 
 .sun-logo:hover {
     filter: invert(27%) sepia(13%) saturate(729%) hue-rotate(7deg) brightness(94%) contrast(91%);
-}
-
-.sun-logo.white:hover {
-    filter: invert(3%);
 }
 
 .hamburger {
@@ -1250,29 +1239,24 @@ html {
     }
 
     .skill-list {
-        justify-content: flex-start;
+        justify-content: center;
         gap: 0;
         margin-top: 45px;
-        padding-left: 40px;
     }
 
     .digital-photography {
         height: 224px;
         width: 300px;
-        margin-right: 44px;
-        margin-bottom: 36px;
     }
 
     .video-shooting{
         height: 224px;
         width: 300px;
-        margin-bottom: 36px;
     }
 
     .retouch {
         height: 224px;
         width: 300px;
-        margin-right: 44px;
     }
 
     .audio {

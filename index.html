@@ -1,194 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="icon" href="./essets/img/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="body">
-   <header class="header">
-           <div class="header-container"> 
-               <div><img src="./essets/svg/logo_header.svg" alt="logo" class="logo-header"></div>
-               <div class="header-right">
-                   <nav class="nav nav-1">
-                       <ul class="nav-list">
-                           <li class="nav-item"><a href="#skills" class="nav-link nav-link-1 lang" key="skills">Skills</a></li>
-                           <li class="nav-item"><a href="#portfolio" class="nav-link nav-link-2 lang" key="portfolio">Portfolio</a></li>
-                           <li class="nav-item"><a href="#video" class="nav-link nav-link-3 lang" key="video">Video</a></li>
-                           <li class="nav-item"><a href="#price" class="nav-link nav-link-4 lang" key="price">Price</a></li>
-                           <li class="nav-item"><a href="#contacts" class="nav-link nav-link-5 lang" key="contacts">Contacts</a></li>
-                       </ul>
-                       <div class="hamburger-close">
-                           <div class="hamburger-close-line close-line1"></div>
-                           <div class="hamburger-close-line close-line2"></div>
-                       </div>
-                   </nav>
-                   <div class="switch">
-                       <button class="switch-en translate" id="en">en</button>
-                       <span class="slash">/</span>
-                       <button class="switch-ru translate" id="ru">ru</button>
-                    </div>
-                    <div class="sun"><img src="./essets/svg/sun.svg" alt="sun" class="sun-logo theme"></div>
-                   <div class="hamburger"> 
-                       <div class="hamburger-line line1"></div>
-                       <div class="hamburger-line line2"></div>
-                       <div class="hamburger-line line3"></div>
-                  </div>
+    <link rel="icon" href="./essets/img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="header-container">
+        <div>
+          <img
+            src="./essets/svg/logo_header.svg"
+            alt="logo"
+            class="logo-header"
+          />
+        </div>
+        <div class="header-right">
+          <nav class="nav nav-1">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#skills" class="nav-link nav-link-1 lang" key="skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#portfolio"
+                  class="nav-link nav-link-2 lang"
+                  key="portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#video" class="nav-link nav-link-3 lang" key="video"
+                  >Video</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#price" class="nav-link nav-link-4 lang" key="price"
+                  >Price</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#contacts"
+                  class="nav-link nav-link-5 lang"
+                  key="contacts"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+            <div class="hamburger-close">
+              <div class="hamburger-close-line close-line1"></div>
+              <div class="hamburger-close-line close-line2"></div>
+            </div>
+          </nav>
+          <div class="switch">
+            <button class="switch-en translate" id="en">en</button>
+            <span class="slash">/</span>
+            <button class="switch-ru translate" id="ru">ru</button>
+          </div>
+          <div class="sun"><img src="./essets/svg/sun.svg" alt="sun" class="sun-logo theme"></div>
+          <div class="hamburger">
+            <div class="hamburger-line line1"></div>
+            <div class="hamburger-line line2"></div>
+            <div class="hamburger-line line3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-block">
+          <h1 class="main-title lang" key="hero-title">Alexa Rise</h1>
+          <div class="greeting-text lang" key="hero-text">
+            Save sincere emotions, romantic feelings and happy moments of life
+            together with professional photographer Alexa Rise
+          </div>
+          <button class="gold-button lang" key="hire">Hire me</button>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="skills" id="skills">
+          <div class="title-container">
+            <h2 class="section-title section-title-1">
+              <span class="title-frame title-frame-1 lang" key="skills"
+                >Skills</span
+              >
+            </h2>
+          </div>
+          <div class="skill-list">
+            <div class="digital-photography">
+              <img
+                src="./essets/svg/camera-logo.svg"
+                alt="camera-logo"
+                class="skills-logo"
+              />
+              <div class="skill-name skill-name-1 lang" key="skill-title-1">
+                Digital photography
+              </div>
+              <div class="about-skill about-skill-1 lang" key="skill-text-1">
+                High-quality photos in the studio and on the nature
+              </div>
+            </div>
+            <div class="video-shooting">
+              <img
+                src="./essets/svg/video-logo.svg"
+                alt="video-logo"
+                class="skills-logo"
+              />
+              <div class="skill-name skill-name-2 lang" key="skill-title-2">
+                Video shooting
+              </div>
+              <div class="about-skill about-skill-2 lang" key="skill-text-2">
+                Capture your moments so that they always stay with you
+              </div>
+            </div>
+            <div class="retouch">
+              <img
+                src="./essets/svg/image-logo.svg"
+                alt="retouch-logo"
+                class="skills-logo"
+              />
+              <div class="skill-name skill-name-3 lang" key="skill-title-3">
+                Retouch
+              </div>
+              <div class="about-skill about-skill-3 lang" key="skill-text-3">
+                I strive to make photography surpass reality
+              </div>
+            </div>
+            <div class="audio">
+              <img
+                src="./essets/svg/mic-logo.svg"
+                alt="audio-logo"
+                class="skills-logo"
+              />
+              <div class="skill-name skill-name-4 lang" key="skill-title-4">
+                Audio
+              </div>
+              <div class="about-skill about-skill-4 lang" key="skill-text-4">
+                Professional sounds recording for video, advertising, portfolio
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+          <div class="title-container">
+            <h2 class="section-title section-title-2">
+              <span class="title-frame title-frame-2 lang" key="portfolio"
+                >Portfolio</span
+              >
+            </h2>
+          </div>
+          <div class="portfolio-button">
+            <button class="transparent-button btn1 lang" key="winter">
+              Winter
+            </button>
+            <button class="transparent-button btn2 lang" key="spring">
+              Spring
+            </button>
+            <button class="transparent-button btn3 lang" key="summer">
+              Summer
+            </button>
+            <button class="transparent-button btn4 lang" key="autumn">
+              Autumn
+            </button>
+          </div>
+          <div class="portfolio-images">
+            <img
+              src="./essets/img/portfolio-img1.jpg"
+              alt="image1"
+              class="portfolio-img-example"
+            />
+            <img
+              src="./essets/img/portfolio-img2.jpg"
+              alt="image2"
+              class="portfolio-img-example"
+            />
+            <img
+              src="./essets/img/portfolio-img3.jpg"
+              alt="image3"
+              class="portfolio-img-example"
+            />
+            <img
+              src="./essets/img/portfolio-img4.jpg"
+              alt="image4"
+              class="portfolio-img-example"
+            />
+            <img
+              src="./essets/img/portfolio-img5.jpg"
+              alt="image5"
+              class="portfolio-img-example"
+            />
+            <img
+              src="./essets/img/portfolio-img6.jpg"
+              alt="image6"
+              class="portfolio-img-example"
+            />
+          </div>
+        </section>
+      </div>
+
+      <section class="video" id="video">
+        <div class="title-container">
+          <h2 class="section-title section-title-3">
+            <span class="title-frame title-frame-3 lang" key="video"
+              >Video</span
+            >
+          </h2>
+        </div>
+        <div class="video-player">
+          <button class="player-button">
+            <img
+              src="./essets/svg/player-invisited.svg"
+              alt="player logo"
+              class="player-logo"
+            />
+          </button>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="price" id="price">
+          <div class="title-container">
+            <h2 class="section-title section-title-4">
+              <span class="title-frame title-frame-4 lang" key="price"
+                >Price</span
+              >
+            </h2>
+          </div>
+          <div class="price-options">
+            <div class="price-standart">
+              <div class="price-name price-name-1 lang" key="price-name-1">
+                Standard
+              </div>
+              <div class="how-much-money">500 $</div>
+              <div class="price-description price-description-1">
+                <div class="service-list lang" key="price-description-1-span-1">
+                  One location
                 </div>
-           </div>
-   </header>
+                <div class="service-list lang" key="price-description-1-span-2">
+                  120 photos in color
+                </div>
+                <div class="service-list lang" key="price-description-1-span-3">
+                  12 photos in retouch
+                </div>
+                <div class="service-list lang" key="price-description-1-span-4">
+                  Readiness 2-3 weeks
+                </div>
+                <div class="service-list lang" key="price-description-1-span-5">
+                  Make up, visage
+                </div>
+              </div>
+              <button class="gold-button lang" key="order">
+                Order shooting
+              </button>
+            </div>
+            <div class="price-premium">
+              <div class="price-name price-name-2 lang" key="price-name-2">
+                Premium
+              </div>
+              <div class="how-much-money">700 $</div>
+              <div class="price-description price-description-2">
+                <div class="service-list lang" key="price-description-2-span-1">
+                  One or two locations
+                </div>
+                <div class="service-list lang" key="price-description-2-span-2">
+                  200 photos in color
+                </div>
+                <div class="service-list lang" key="price-description-2-span-3">
+                  20 photos in retouch
+                </div>
+                <div class="service-list lang" key="price-description-2-span-4">
+                  Readiness 1-2 weeks
+                </div>
+                <div class="service-list lang" key="price-description-2-span-5">
+                  Make up, visage
+                </div>
+              </div>
+              <button class="gold-button lang" key="order">
+                Order shooting
+              </button>
+            </div>
+            <div class="price-gold">
+              <div class="price-name price-name-3 lang" key="price-name-3">
+                Gold
+              </div>
+              <div class="how-much-money">1000 $</div>
+              <div class="price-description price-description-3">
+                <div class="service-list lang" key="price-description-3-span-1">
+                  Three locations or more
+                </div>
+                <div class="service-list lang" key="price-description-3-span-2">
+                  300 photos in color
+                </div>
+                <div class="service-list lang" key="price-description-3-span-3">
+                  50 photos in retouch
+                </div>
+                <div class="service-list lang" key="price-description-3-span-4">
+                  Readiness 1 week
+                </div>
+                <div class="service-list lang" key="price-description-3-span-5">
+                  Make up, visage, hairstyle
+                </div>
+              </div>
+              <button class="gold-button lang" key="order">
+                Order shooting
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
 
-   <main class="main">
+      <section class="contacts" id="contacts">
+        <div class="contact-container">
+          <div class="contact-me">
+            <h2 class="contact-title lang" key="contact-me">Contact me</h2>
+            <input type="email" class="contact-form" placeholder="E-mail" />
+            <input type="tel" class="contact-form" placeholder="Phone" />
+            <textarea class="message-form" placeholder="Message"></textarea>
+            <button class="gold-button lang" key="send-message">
+              Send message
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
 
-           <section class="hero">
-               <div class="hero-block">
-                   <h1 class="main-title lang" key="hero-title">Alexa Rise</h1>
-                   <div class="greeting-text lang" key="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</div>
-                   <button class="gold-button lang" key="hire">Hire me</button>
-               </div>
-           </section>
+    <footer class="footer">
+      <div class="container-fo">
+        <div class="footer-container">
+          <div class="footer-container-left">
+            <div class="copyright">©</div>
+            <div class="year">2022</div>
+            <div class="github">
+              <a href="https://github.com/vikuli" class="github-link">github</a>
+            </div>
+          </div>
+          <div class="rsschool">
+            <a href="https://rs.school/js-stage0/" class="rsschool-link"
+              >Rolling Scopes School</a
+            >
+          </div>
+          <ul class="social-network-list">
+            <li class="social-network-item">
+              <a
+                href="https://www.instagram.com/novikowavika/"
+                class="inst-link"
+                ><img
+                  src="./essets/svg/instagram.svg"
+                  alt="instagram"
+                  class="inst-logo"
+              /></a>
+            </li>
+            <li class="social-network-item">
+              <a href="https://www.facebook.com/novikowavika/" class="fb-link"
+                ><img
+                  src="./essets/svg/facebook.svg"
+                  alt="facebook"
+                  class="fb-logo"
+              /></a>
+            </li>
+            <li class="social-network-item">
+              <a href="https://twitter.com/novikowavika" class="tw-link"
+                ><img
+                  src="./essets/svg/twitter.svg"
+                  alt="twitter"
+                  class="tw-logo"
+              /></a>
+            </li>
+            <li class="social-network-item">
+              <a
+                href="https://www.pinterest.com/victoriyaterekh/_created/"
+                class="pinterest-link"
+                ><img
+                  src="./essets/svg/pinterest.svg"
+                  alt="pinterest"
+                  class="pinterest-logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-       <div class="container">
-           <section class="skills" id="skills">
-               <div class="title-container">
-                   <h2 class="section-title section-title-1"><span class="title-frame title-frame-1 lang" key="skills">Skills</span></h2>
-               </div>
-               <div class="skill-list">
-                   <div class="digital-photography">
-                       <img src="./essets/svg/camera-logo.svg" alt="camera-logo" class="skills-logo">
-                       <div class="skill-name skill-name-1 lang" key="skill-title-1">Digital photography</div>
-                       <div class="about-skill about-skill-1 lang" key="skill-text-1">High-quality photos in the studio and on the nature</div>
-                   </div>
-                   <div class="video-shooting">
-                       <img src="./essets/svg/video-logo.svg" alt="video-logo" class="skills-logo">
-                       <div class="skill-name skill-name-2 lang" key="skill-title-2">Video shooting</div>
-                       <div class="about-skill about-skill-2 lang" key="skill-text-2">Capture your moments so that they always stay with you</div>
-                   </div>
-                   <div class="retouch">
-                       <img src="./essets/svg/image-logo.svg" alt="retouch-logo" class="skills-logo">
-                       <div class="skill-name skill-name-3 lang" key="skill-title-3">Retouch</div>
-                       <div class="about-skill about-skill-3 lang" key="skill-text-3">I strive to make photography surpass reality</div>
-                   </div>
-                   <div class="audio">
-                       <img src="./essets/svg/mic-logo.svg" alt="audio-logo" class="skills-logo">
-                       <div class="skill-name skill-name-4 lang" key="skill-title-4">Audio</div>
-                       <div class="about-skill about-skill-4 lang" key="skill-text-4">Professional sounds recording for video, advertising, portfolio</div>
-                   </div>
-               </div>
-           </section>
-
-           <section class="portfolio" id="portfolio">
-               <div class="title-container">
-                   <h2 class="section-title section-title-2"><span class="title-frame title-frame-2 lang" key="portfolio">Portfolio</span></h2>
-               </div>
-               <div class="portfolio-button">
-                   <button class="transparent-button btn1 lang" key="winter">Winter</button>
-                   <button class="transparent-button btn2 lang" key="spring">Spring</button>
-                   <button class="transparent-button btn3 lang" key="summer">Summer</button>
-                   <button class="transparent-button btn4 lang" key="autumn">Autumn</button>
-               </div>
-               <div class="portfolio-images">
-                   <img src="./essets/img/portfolio-img1.jpg" alt="image1" class="portfolio-img-example">
-                   <img src="./essets/img/portfolio-img2.jpg" alt="image2" class="portfolio-img-example">
-                   <img src="./essets/img/portfolio-img3.jpg" alt="image3" class="portfolio-img-example">
-                   <img src="./essets/img/portfolio-img4.jpg" alt="image4" class="portfolio-img-example">
-                   <img src="./essets/img/portfolio-img5.jpg" alt="image5" class="portfolio-img-example">
-                   <img src="./essets/img/portfolio-img6.jpg" alt="image6" class="portfolio-img-example">
-               </div>
-           </section>
-       </div>
-
-           <section class="video" id="video">
-               <div class="title-container">
-                   <h2 class="section-title section-title-3"><span class="title-frame title-frame-3 lang" key="video">Video</span></h2>
-               </div>
-               <div class="video-player">
-                   <button class="player-button"><img src="./essets/svg/player-invisited.svg" alt="player logo" class="player-logo"></button>
-               </div>
-            </section>
-        
-       <div class="container">
-           <section class="price" id="price">
-               <div class="title-container">
-                   <h2 class="section-title section-title-4"><span class="title-frame title-frame-4 lang" key="price">Price</span></h2>
-               </div>
-               <div class="price-options">
-                   <div class="price-standart">
-                       <div class="price-name price-name-1 lang" key="price-name-1">Standard</div>
-                       <div class="how-much-money">500 $</div>
-                       <div class="price-description price-description-1">
-                           <div class="service-list lang" key="price-description-1-span-1">One location</div>
-                           <div class="service-list lang" key="price-description-1-span-2">120 photos in color</div>
-                           <div class="service-list lang" key="price-description-1-span-3">12 photos in retouch</div>
-                           <div class="service-list lang" key="price-description-1-span-4">Readiness 2-3 weeks</div>
-                           <div class="service-list lang" key="price-description-1-span-5">Make up, visage</div>
-                       </div>
-                       <button class="gold-button lang" key="order">Order shooting</button>
-                   </div>
-                   <div class="price-premium">
-                       <div class="price-name price-name-2 lang" key="price-name-2">Premium</div>
-                       <div class="how-much-money">700 $</div>
-                       <div class="price-description price-description-2">
-                           <div class="service-list lang" key="price-description-2-span-1">One or two locations</div>
-                           <div class="service-list lang" key="price-description-2-span-2">200 photos in color</div>
-                           <div class="service-list lang" key="price-description-2-span-3">20 photos in retouch</div>
-                           <div class="service-list lang" key="price-description-2-span-4">Readiness 1-2 weeks</div>
-                           <div class="service-list lang" key="price-description-2-span-5">Make up, visage</div>
-                       </div>
-                       <button class="gold-button lang" key="order">Order shooting</button>
-                   </div>
-                   <div class="price-gold">
-                       <div class="price-name price-name-3 lang" key="price-name-3">Gold</div>
-                       <div class="how-much-money">1000 $</div>
-                       <div class="price-description price-description-3">
-                           <div class="service-list lang" key="price-description-3-span-1">Three locations or more</div>
-                           <div class="service-list lang" key="price-description-3-span-2">300 photos in color</div>
-                           <div class="service-list lang" key="price-description-3-span-3">50 photos in retouch</div>
-                           <div class="service-list lang" key="price-description-3-span-4">Readiness 1 week</div>
-                           <div class="service-list lang" key="price-description-3-span-5">Make up, visage, hairstyle</div>
-                       </div>
-                       <button class="gold-button lang" key="order">Order shooting</button>
-                   </div>
-               </div>
-           </section>
-       </div>  
-
-           <section class="contacts" id="contacts">
-               <div class="contact-container">
-                   <div class="contact-me">
-                       <h2 class="contact-title lang" key="contact-me">Contact me</h2>
-                       <input type="email" class="contact-form" placeholder="E-mail">
-                       <input type="tel" class="contact-form" placeholder="Phone">
-                       <textarea class="message-form" placeholder="Message"></textarea>
-                       <button class="gold-button lang" key="send-message">Send message</button>
-                    </div>
-               </div>
-           </section>
-   </main>
-
-   <footer class="footer">
-       <div class="container-fo">
-           <div class="footer-container">
-               <div class="footer-container-left">
-                   <div class="copyright">©</div>
-                   <div class="year">2022</div>
-                   <div class="github"><a href="https://github.com/vikuli" class="github-link">github</a></div>
-               </div>
-               <div class="rsschool"><a href="https://rs.school/js-stage0/" class="rsschool-link">Rolling Scopes School</a></div>
-               <ul class="social-network-list">
-                   <li class="social-network-item"><a href="https://www.instagram.com/novikowavika/" class="inst-link"><img src="./essets/svg/instagram.svg" alt="instagram" class="inst-logo"></a></li>
-                   <li class="social-network-item"><a href="https://www.facebook.com/novikowavika/" class="fb-link"><img src="./essets/svg/facebook.svg" alt="facebook" class="fb-logo"></a></li>
-                   <li class="social-network-item"><a href="https://twitter.com/novikowavika" class="tw-link"><img src="./essets/svg/twitter.svg" alt="twitter" class="tw-logo"></a></li>
-                   <li class="social-network-item"><a href="https://www.pinterest.com/victoriyaterekh/_created/" class="pinterest-link"><img src="./essets/svg/pinterest.svg" alt="pinterest" class="pinterest-logo"></a></li>
-               </ul>
-           </div>
-       </div>
-   </footer>
-   
-   <script src='https://code.jquery.com/jquery-3.3.1.js'></script>
-   <script src="hamburger.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="hamburger.js"></script>
+  </body>
 </html>

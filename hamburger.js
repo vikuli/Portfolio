@@ -229,8 +229,13 @@ switchRu.addEventListener('click', () => {
     const hamburgerCloseLine2 = document.querySelector('.close-line2')
 
     sunLogo.addEventListener('click', () => {
-        sunLogo.classList.toggle('active-sun')
-        sunLogo.classList.toggle('white')
+        if (sunLogo.classList.contains('moon')) {
+            sunLogo.classList.remove('moon')
+            sunLogo.src = './essets/svg/sun.svg'
+        } else {
+            sunLogo.classList.add('moon')
+            sunLogo.src = './essets/svg/moon.svg'
+        }
 
         body.classList.toggle('white')
 
